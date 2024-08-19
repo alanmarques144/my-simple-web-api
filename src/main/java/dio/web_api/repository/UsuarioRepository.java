@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import dio.web_api.model.Usuario;
 
 @Repository
-public class UserRepository {
+public class UsuarioRepository {
     
     public void save(Usuario usuario){
         System.out.println("SAVE - Recebendo o usuário na camada de repositório");
@@ -24,12 +24,12 @@ public class UserRepository {
     }
     public List<Usuario> listAll(){
         List<Usuario> usuarios = new ArrayList<>();
-        usuarios.add(new Usuario("gleyson","password"));
-        usuarios.add(new Usuario("frank","masterpass"));
+        usuarios.add(new Usuario("alan","password"));
+        usuarios.add(new Usuario("alan02","masterpass"));
         return usuarios;
     }
-    public Usuario finById(Integer id){
+    public Usuario findById(Integer id){
         System.out.println(String.format("GET/id - Recebendo o id: %d para localizar um usuário", id));
-        return new Usuario("gleyson","password");
+        return new Usuario("alan","password");
     }
 }

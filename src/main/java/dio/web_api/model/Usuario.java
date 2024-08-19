@@ -1,7 +1,7 @@
 package dio.web_api.model;
 
 public class Usuario {
-    private Integer id;
+
     private String login;
     private String password;
 
