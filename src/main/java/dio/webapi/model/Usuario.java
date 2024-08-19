@@ -1,7 +1,11 @@
 package dio.webapi.model;
 
+
+
 public class Usuario {
 
+    
+    private Integer id;
     private String login;
     private String password;
 
@@ -35,5 +39,9 @@ public class Usuario {
     public String getPassword() {
         return password;
     }
+
+    public Integer getId() {
+		return id;
+	}
 
 }
