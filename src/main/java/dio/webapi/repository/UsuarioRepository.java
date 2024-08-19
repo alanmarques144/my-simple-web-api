@@ -1,11 +1,11 @@
-package dio.web_api.repository;
+package dio.webapi.repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import dio.web_api.model.Usuario;
+import dio.webapi.model.Usuario;
 
 @Repository
 public class UsuarioRepository {

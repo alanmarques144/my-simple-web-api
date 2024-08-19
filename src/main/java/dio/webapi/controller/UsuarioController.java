@@ -1,4 +1,4 @@
-package dio.web_api.controller;
+package dio.webapi.controller;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import dio.web_api.model.Usuario;
-import dio.web_api.repository.UsuarioRepository;
+import dio.webapi.model.Usuario;
+import dio.webapi.repository.UsuarioRepository;
 
 @RestController
 @RequestMapping("/usuarios")

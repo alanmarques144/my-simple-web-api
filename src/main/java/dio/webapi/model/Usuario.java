@@ -1,4 +1,4 @@
-package dio.web_api.model;
+package dio.webapi.model;
 
 public class Usuario {
 
